@@ -1,0 +1,24 @@
+{
+  "name": "thanik.me",
+  "version": "1.0.0",
+  "description": "Personal Website: Thanik Bhongbhibhat",
+  "main": "n/a",
+  "repository": "git@github.com:bhongy/thanik.me.git",
+  "author": "Thanik Bhongbhibhat <email@thanik.me>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.145",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-react-helmet": "^1.0.8"
+  },
+  "devDependencies": {
+    "prettier": "^1.9.2"
+  }
+}
