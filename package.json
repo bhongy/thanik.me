@@ -18,7 +18,9 @@
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^1.0.8",
-    "normalize.css": "^7.0.0"
+    "gatsby-plugin-typography": "^1.7.10",
+    "normalize.css": "^7.0.0",
+    "typography-theme-ocean-beach": "^0.15.11"
   },
   "devDependencies": {
     "firebase-tools": "^3.16.0",
