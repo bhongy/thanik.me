@@ -10,6 +10,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "firebase deploy",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,7 @@
     "gatsby-plugin-react-helmet": "^1.0.8"
   },
   "devDependencies": {
+    "firebase-tools": "^3.16.0",
     "prettier": "^1.9.2"
   }
 }
