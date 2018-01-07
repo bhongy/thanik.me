@@ -4,10 +4,7 @@
   min-height: 100vh;
 }
 
-.pageContainer {
+.pageContent {
+  flex: 1;
   padding-top: 8rem;
-}
-
-.footer {
-
 }

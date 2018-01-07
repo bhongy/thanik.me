@@ -1,9 +1,14 @@
+const me = {
+  name: 'Thanik Bhongbhibhat',
+};
+
 module.exports = {
   siteMetadata: {
-    title: 'Thanik Bhongbhibhat',
-    description: 'Personal Website of Thanik Bhongbhibhat',
-    author: 'Thanik Bhongbhibhat',
+    title: 'thanik.me',
+    description: `Personal Website of ${me.name}`,
+    author: me.name,
     siteUrl: 'https://thanik.me',
+    me,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
