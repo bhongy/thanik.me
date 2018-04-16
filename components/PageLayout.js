@@ -1,3 +1,4 @@
+import { GlobalStyle } from './GlobalStyle';
 import { Footer } from './Footer';
 
 const PageLayout = ({ children }) => (
@@ -18,6 +19,7 @@ const PageLayout = ({ children }) => (
         padding-top: 8rem;
       }
     `}</style>
+    <GlobalStyle />
   </React.Fragment>
 );
 
