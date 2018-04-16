@@ -12,6 +12,7 @@
     "build-static": "next build && next export",
     "deploy": "firebase deploy",
     "format": "prettier --write \"src/**/*.js\"",
+    "analyze": "ANALYZE=1 next build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "firebase-tools": "^3.18.0",
-    "prettier": "^1.12.0"
+    "prettier": "^1.12.0",
+    "webpack-bundle-analyzer": "^2.11.1"
   }
 }
