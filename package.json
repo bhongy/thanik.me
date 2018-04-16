@@ -8,22 +8,19 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "start": "next",
+    "build-static": "next build && next export",
     "deploy": "firebase deploy",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^1.9.145",
-    "gatsby-link": "^1.6.32",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-typography": "^1.7.10",
-    "normalize.css": "^7.0.0",
-    "typography-theme-ocean-beach": "^0.15.11"
+    "next": "^5.1.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
   },
   "devDependencies": {
-    "firebase-tools": "^3.16.0",
-    "prettier": "^1.9.2"
+    "firebase-tools": "^3.18.0",
+    "prettier": "^1.12.0"
   }
 }
