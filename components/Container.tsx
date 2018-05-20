@@ -1,3 +1,5 @@
+import * as React from 'react';
+
 const Container = ({ children }) => (
   <React.Fragment>
     <div className="container">{children}</div>

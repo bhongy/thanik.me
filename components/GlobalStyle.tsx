@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { color } from '../lib/project';
 
 // hoist to a singleton object
