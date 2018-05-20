@@ -2,6 +2,7 @@ export const me = {
   name: 'Thanik Bhongbhibhat',
 };
 
+/* -- not currently use
 export const color = {
   primary: '#d65279',
   highlight: '#ffffff',
@@ -9,3 +10,4 @@ export const color = {
   midtone: '#d3d1e3',
   dark: '#72707c',
 };
+*/

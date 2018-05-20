@@ -1,5 +1,5 @@
-import * as React from 'react';
 import { Container } from './Container';
+import s from './Footer.css';
 
 const uri = {
   twitter: 'https://twitter.com/bhongbhibhat',
@@ -9,30 +9,15 @@ const uri = {
 };
 
 const Credits = () => (
-  <React.Fragment>
-    <div className="credits">
+  <>
+    <div className={s.credits}>
       <Container>
         Site inspired by <a href={uri.frantic}>Alex Kotliarskyi's Website</a>
         {' • '}
         Site built with <a href={uri.nextjs}>Next.js</a>.
       </Container>
     </div>
-    <style jsx>{`
-      .credits {
-        padding: 0.75rem 0;
-        font-size: 0.75rem;
-        text-align: center;
-        background-color: #444;
-        color: #ddd;
-      }
-
-      a {
-        color: #fff;
-        text-shadow: initial;
-        background-image: initial;
-      }
-    `}</style>
-  </React.Fragment>
+  </>
 );
 
 const Footer = () => (

@@ -1,0 +1,13 @@
+.credits {
+  padding: 0.75rem 0;
+  font-size: 0.75rem;
+  text-align: center;
+  background-color: #444;
+  color: #ddd;
+}
+
+.credits a {
+  color: #fff;
+  text-shadow: initial;
+  background-image: initial;
+}
