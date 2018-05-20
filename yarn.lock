@@ -2437,7 +2437,7 @@ find-up@2.1.0, find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
-firebase-tools@^3.18.0:
+firebase-tools@^3.18.4:
   version "3.18.4"
   resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-3.18.4.tgz#49fb40e1e1a7c977921b7b3ece12da8cdb139550"
   dependencies:
