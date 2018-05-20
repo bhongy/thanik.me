@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { GlobalStyle } from './GlobalStyle';
 import { Footer } from './Footer';
 
