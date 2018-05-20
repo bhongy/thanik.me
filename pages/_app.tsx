@@ -3,8 +3,8 @@ import { PageLayout } from '../components';
 import './_app.css';
 
 export default class App extends NextApp {
-  props: { Component: any, pageProps: any };
   render() {
+    // @ts-ignore until @types/next is updated to support types for "next/app"
     const { Component, pageProps } = this.props;
     return (
       <Container>
