@@ -7,6 +7,14 @@ const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
 const compose = (...fns) => fns.reduce((f, g) => (...args) => f(g(...args)));
 
 module.exports = compose(withCss, withTypescript, withBundleAnalyzer)({
+  // explicitly set the static export map so the engine doesn't get confused
+  // with index.css.d.ts or _app.css.d.ts files
+  exportPathMap() {
+    return {
+      '/': { page: '/' },
+    };
+  },
+
   // Configs for withCss
   cssModules: true,
   cssLoaderOptions: {
