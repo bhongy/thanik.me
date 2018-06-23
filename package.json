@@ -17,13 +17,13 @@
   },
   "dependencies": {
     "next": "^6.0.3",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.47",
     "@types/next": "^2.4.10",
-    "@types/react": "^16.3.14",
+    "@types/react": "^16.4.1",
     "@zeit/next-bundle-analyzer": "^0.1.1",
     "@zeit/next-css": "^0.2.0",
     "@zeit/next-typescript": "^1.0.0",
