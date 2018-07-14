@@ -1,6 +1,13 @@
 import { Container } from './Container';
 import s from './Footer.css';
 
+const Social = () => (
+  <p className={s.social}>
+    See what I'm upto on <a href={uri.twitter}>Twitter</a> and{' '}
+    <a href={uri.github}>Github</a>.
+  </p>
+);
+
 const uri = {
   twitter: 'https://twitter.com/bhongbhibhat',
   github: 'https://github.com/bhongy',
@@ -23,10 +30,7 @@ const Credits = () => (
 const Footer = () => (
   <footer>
     <Container>
-      <p>
-        See what I'm upto on <a href={uri.twitter}>Twitter</a> and{' '}
-        <a href={uri.github}>Github</a>.
-      </p>
+      <Social />
     </Container>
     <Credits />
   </footer>
