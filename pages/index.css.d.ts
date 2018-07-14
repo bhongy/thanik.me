@@ -1,1 +1,1 @@
-export const introduction: string;
+export const section: string;
