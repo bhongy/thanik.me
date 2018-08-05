@@ -21,7 +21,7 @@
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.53",
+    "@babel/core": "^7.0.0-beta.56",
     "@types/next": "^6.0.4",
     "@types/react": "^16.4.6",
     "@zeit/next-bundle-analyzer": "^0.1.1",
