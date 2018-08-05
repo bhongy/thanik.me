@@ -2955,9 +2955,9 @@ find-up@2.1.0, find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
-firebase-tools@^3.19.3:
-  version "3.19.3"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-3.19.3.tgz#5833e107a7ddd16a0e38776458752f0a3c4a62ea"
+firebase-tools@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-4.0.3.tgz#4bfa8ff0c40be52806b9e0b17d447cad929a3750"
   dependencies:
     JSONStream "^1.2.1"
     archiver "^2.1.1"
@@ -2981,7 +2981,7 @@ firebase-tools@^3.19.3:
     is "^3.2.1"
     jsonschema "^1.0.2"
     jsonwebtoken "^8.2.1"
-    lodash "^4.6.1"
+    lodash "^4.17.10"
     minimatch "^3.0.4"
     opn "^5.3.0"
     ora "0.2.3"
@@ -4436,7 +4436,7 @@ lodash@^3.10.0, lodash@^3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.14.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.6.1, lodash@^4.8.0:
+lodash@^4.14.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.8.0:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
