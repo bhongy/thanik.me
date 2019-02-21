@@ -9,7 +9,7 @@ const Section = ({ children }) => (
 const Introduction = () => (
   <Section>
     <p>
-      Hello! My name is Thanik Bhongbhibhat. I'm a front-end engineer at
+      Hello! My name is Thanik Bhongbhibhat. I'm a full-stack engineer at
       Pinterest with interest in Data Modeling and Large-scale Application
       Design. This is a collection of my personal posts about web development
       and programming.

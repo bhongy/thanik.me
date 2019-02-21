@@ -20,6 +20,8 @@ yarn build-static
 yarn firebase serve  # after yarn build-static
 ```
 
+If you have `HTTP Error: 401` issue, do `yarn firebase logout && yarn firebase login`.
+
 ## Deploy
 
 ```bash
