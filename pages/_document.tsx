@@ -1,5 +1,4 @@
 import Document, { Head, Main, NextScript } from 'next/document';
-import { me } from '../lib/project';
 
 const uri = {
   normalizeCss:
@@ -11,12 +10,10 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <meta http-equiv="x-ua-compatible" content="ie=edge" />
-          <title>{me.name} (Personal Website)</title>
+          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="description" content="" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <link rel="stylesheet" href={uri.normalizeCss} />
-          <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body>
           <Main />
