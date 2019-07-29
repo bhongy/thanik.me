@@ -1,3 +1,17 @@
-.section {
-  margin-bottom: 2rem;
+.Section {
+  margin-block-start: 2rem;
+  margin-block-end: 3rem;
+}
+
+.Section__Title {
+  font-weight: 500;
+  margin-block-start: 1.5rem;
+  margin-block-end: 0.5rem;
+}
+
+.Section__Description {
+  color: #72707c;
+  font-size: 0.85rem;
+  margin-block-start: 0.5rem;
+  margin-block-end: 1rem;
 }
