@@ -11,7 +11,7 @@ const Social = () => (
 const uri = {
   twitter: 'https://twitter.com/bhongbhibhat',
   github: 'https://github.com/bhongy',
-  frantic: 'http://frantic.im/writing/',
+  frantic: 'http://frantic.im',
   nextjs: 'https://github.com/zeit/next.js',
 };
 
