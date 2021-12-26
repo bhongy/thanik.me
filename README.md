@@ -1,6 +1,6 @@
 Personal Website of Thanik Bhongbhibhat <email@thanik.me>
 
-Site built with [Next.js](https://github.com/zeit/next.js).
+Site built with [Next.js](https://nextjs.org).
 
 ## Developement
 
