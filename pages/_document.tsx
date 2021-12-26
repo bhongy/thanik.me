@@ -1,6 +1,8 @@
 import DefaultDocument, {Html, Head, Main, NextScript} from 'next/document';
 
 const uri = {
+  roboto:
+    'https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2',
   normalizeCss:
     'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css',
 };
@@ -11,9 +13,10 @@ export default class Document extends DefaultDocument {
       <Html lang="en">
         <Head>
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          {/* next.js does not inline font style properly if `href` is passed via a variable */}
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&amp;display=optional" />
+          <link rel="preload" href={uri.roboto} as="font" />
           <link rel="stylesheet" href={uri.normalizeCss} />
+          {/* prevent favicon request */}
+          <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
         </Head>
         <body>
           <Main />
