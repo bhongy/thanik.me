@@ -1,3 +1,5 @@
+# thanik.me
+
 Personal Website of Thanik Bhongbhibhat <email@thanik.me>
 
 Site built with [Next.js](https://nextjs.org).
@@ -20,15 +22,10 @@ yarn build-static
 yarn firebase serve  # after yarn build-static
 ```
 
-If you have `HTTP Error: 401` issue, do `yarn firebase logout && yarn firebase login`.
+If encounter `HTTP Error: 401`, do `yarn firebase logout && yarn firebase login`.
 
 ## Deploy
 
 ```bash
 yarn deploy  # after yarn build-static
 ```
-
-## Todo
-
-[ ] Extract global style into a separate CSS file (production hash)
-[ ] Add posts, content
