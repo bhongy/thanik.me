@@ -2,8 +2,8 @@ name: Deploy to production
 
 on:
   push:
-    # branches:
-    #   - main
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -17,6 +17,6 @@ jobs:
           node-version: 18
       - run: yarn install --forzen-lockfile
       - run: yarn build
-      - run: yarn deploy
+      - run: yarn firebase deploy --token $FIREBASE_TOKEN
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
