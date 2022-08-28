@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"astro-build.astro-vscode",
+    "christian-kohler.path-intellisense",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode"
+	]
+}

@@ -1,4 +1,4 @@
-type Entry = {
+interface Entry {
   id: string;
   title: string;
   url: string;

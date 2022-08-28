@@ -1,0 +1,26 @@
+---
+import {me} from '@/data/project';
+import './site.css';
+
+const uri = {
+  roboto:
+    'https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2',
+  normalizeCss:
+    'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css',
+};
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{me.name} (Personal Website)</title>
+    <meta name="description" content={`A personal website of ${me.name}`}>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo="> {/* prevent favicon request */}
+    <link rel="preload" href={uri.roboto} as="font">
+    <link rel="stylesheet" href={uri.normalizeCss}>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
