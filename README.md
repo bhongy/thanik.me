@@ -10,23 +10,21 @@ Site built with [astro](https://astro.build/).
 yarn start
 ```
 
-## Production Build
+## Deploy manually
+
+💡 Note: the site is automatically built and deployed from `main` branch.
 
 ```bash
 yarn build
 ```
 
-## Test Build Locally
+Optional: to test the site locally
 
 ```bash
 yarn firebase serve  # after yarn build
 ```
 
 If encounter `HTTP Error: 401`, do `yarn firebase logout && yarn firebase login`.
-
-## Deploy manually
-
-💡 Note: the site is automatically built and deployed from `main` branch.
 
 ```bash
 yarn deploy  # after yarn build
