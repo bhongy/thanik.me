@@ -10,7 +10,7 @@
   "scripts": {
     "start": "astro dev",
     "build": "astro check && tsc && astro build",
-    "deploy": "firebase deploy --token $FIREBASE_TOKEN",
+    "deploy": "firebase deploy",
     "format": "prettier --write \"{pages,src}/**/*.{ts,tsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
