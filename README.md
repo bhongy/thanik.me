@@ -2,7 +2,7 @@
 
 A personal website of Thanik Bhongbhibhat <email@thanik.me>
 
-Site built with [Next.js](https://nextjs.org).
+Site built with [astro](https://astro.build/).
 
 ## Developement
 
@@ -24,7 +24,9 @@ yarn firebase serve  # after yarn build
 
 If encounter `HTTP Error: 401`, do `yarn firebase logout && yarn firebase login`.
 
-## Deploy
+## Deploy manually
+
+💡 Note: the site is automatically built and deployed from `main` branch.
 
 ```bash
 yarn deploy  # after yarn build
