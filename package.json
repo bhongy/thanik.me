@@ -9,8 +9,8 @@
   "private": true,
   "scripts": {
     "start": "astro dev",
-    "build": "astro check && tsc --noEmit && astro build",
-    "deploy": "firebase deploy",
+    "build": "astro check && tsc && astro build",
+    "deploy": "firebase deploy --token $FIREBASE_TOKEN",
     "format": "prettier --write \"{pages,src}/**/*.{ts,tsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
