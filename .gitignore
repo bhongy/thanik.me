@@ -1,5 +1,5 @@
 .firebase/
-.next/
-out/
+dist/
 node_modules/
+tsconfig.tsbuildinfo
 *.log

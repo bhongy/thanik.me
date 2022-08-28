@@ -1,0 +1,47 @@
+---
+import PageLayout from '@/layouts/Page.astro';
+import Container from '@/components/Container.astro';
+import * as Section from '@/components/Section';
+
+import {learningMaterialEntries} from '@/data/learning-material';
+import {inspiringVideosEntries} from '@/data/inspiring-videos';
+---
+<PageLayout>
+  <Container>
+    <Section.Wrapper>
+      Hello! My name is Thanik Bhongbhibhat. I&apos;m a full-stack engineer with
+      interest in Data Modeling and Large-scale Application Design. This is a
+      collection of my personal posts about web development and programming.
+    </Section.Wrapper>
+
+    <Section.Wrapper>
+      [List to come ...]
+    </Section.Wrapper>
+
+    <Section.Wrapper>
+      <Section.Title>Learning Material</Section.Title>
+      <ul>
+        {learningMaterialEntries.map(({title, url}) => (
+          <li>
+            <a href={url}>{title}</a>
+          </li>
+        ))}
+      </ul>
+    </Section.Wrapper>
+
+    <Section.Wrapper>
+      <Section.Title>Inspiring Videos</Section.Title>
+      <Section.Description>
+        Some videos that made the most profound impact on the way I think about
+        software development.
+      </Section.Description>
+      <ul>
+        {inspiringVideosEntries.map(({title, url}) => (
+          <li>
+            <a href={url}>{title}</a>
+          </li>
+        ))}
+      </ul>
+    </Section.Wrapper>
+  </Container>
+</PageLayout>

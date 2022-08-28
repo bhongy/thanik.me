@@ -1,0 +1,30 @@
+---
+import SiteLayout from '@/layouts/Site.astro';
+import Container from '@/components/Container.astro';
+---
+<SiteLayout>
+  <Container>
+    <main>
+      <h1 class="statusCode">404</h1>
+      <p>This page could not be found.</p>
+    </main>
+  </Container>
+</SiteLayout>
+
+<style>
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+  }
+
+  .statusCode {
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 2rem;
+    padding: 1rem 2rem 1rem 0;
+  }
+</style>

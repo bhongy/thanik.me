@@ -1,0 +1,27 @@
+---
+import Site from './Site.astro';
+import Footer from './Footer.astro';
+---
+<Site>
+  <div class="page">
+    <main class="pageContent">
+      <slot />
+    </main>
+    <Footer />
+  </div>
+</Site>
+
+<style>
+  .page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .pageContent {
+    flex: 1;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    padding-top: 10rem;
+  }
+</style>
